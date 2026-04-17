@@ -3,4 +3,4 @@ uvicorn[standard]
 python-multipart
 pillow
 numpy
-https://github.com/google-coral/py-repo/raw/master/tflite_runtime-2.14.0-cp310-cp310-linux_x86_64.whl
+tensorflow-cpu
