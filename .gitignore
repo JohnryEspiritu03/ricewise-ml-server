@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Large Models (Only if you are using Git LFS, otherwise keep them in repo)
+# *.tflite
