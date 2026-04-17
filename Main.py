@@ -1,9 +1,3 @@
-"""
-RiceWise Analysis Server
-FastAPI server that replicates the full Flutter/Dart grading pipeline.
-Deploy to Railway: https://railway.app
-"""
-
 import io
 import os
 import math
