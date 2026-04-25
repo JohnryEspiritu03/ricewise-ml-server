@@ -18,7 +18,7 @@ from pydantic import BaseModel
 MODELS_DIR = os.getenv("MODELS_DIR", "models")
 
 MODEL_PATHS = {
-    "yolo":           os.path.join(MODELS_DIR, "yolo-model-96.tflite"),
+    "yolo":           os.path.join(MODELS_DIR, "yolo-model.tflite"),
     "segmentation":   os.path.join(MODELS_DIR, "u2net_160_float32.tflite"),
     "grain_vs_other": os.path.join(MODELS_DIR, "rice_vs_other_v3_mobilenetv3.tflite"),
     "brokenness":     os.path.join(MODELS_DIR, "brokenness_v3_mobilenetv3.tflite"),
