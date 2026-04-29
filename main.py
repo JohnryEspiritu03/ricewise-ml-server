@@ -21,7 +21,7 @@ MODEL_PATHS = {
     "brokenness":     os.path.join(MODELS_DIR, "brokenness_v3_mobilenetv3.tflite"),
     "other_matter":   os.path.join(MODELS_DIR, "v3_other_matter_mobilenetv3.tflite"),
     "contrasting":    os.path.join(MODELS_DIR, "contrasting_type_v3_mobilenetv3.tflite"),
-    "defective":      os.path.join(MODELS_DIR, "defectives-v3_mobilenetv3.tflite"),
+    "defective":      os.path.join(MODELS_DIR, "defectives-v2_mobilenetv3.tflite"),
 }
 
 YOLO_INPUT_SIZE    = (1024, 1024)
